@@ -5,7 +5,7 @@ function theBeatlesPlay(musiciansArray, instrumentsArray) {
   for (let i = 0; i < musiciansArray.length - 1; ++i) {
     let curMusician = musiciansArray[i];
     let curInstrument = instrumentsArray[i];
-    string = curMusician + " plays the " + curInstrument;
+    string = curMusician + " plays " + curInstrument;
     statementArray.push(string);
   }
   return statementArray;
