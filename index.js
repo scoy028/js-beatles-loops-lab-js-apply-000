@@ -28,7 +28,5 @@ function iLoveTheBeatles(num) {
   let newVar = [];
   do {
     
-  } while {
-    
-  }
+  } while ();
 }
