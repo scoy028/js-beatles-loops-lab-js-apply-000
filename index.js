@@ -27,10 +27,15 @@ function johnLennonFacts(anArr) {
 function iLoveTheBeatles(num) {
   let newVar = [];
   let i = 0;
-  do {
-    let sillySent = "I love the Beatles!";
+  let sillySent = "I love the Beatles!";
+  if (num >= 15) {
     newVar.push(sillySent);
-    ++i;
-  } while (i <= num);
-  return newVar;
+  }
+  else {
+    do {
+      newVar.push(sillySent);
+      ++i;
+    } while (i <= num);
+    return newVar;
+  }
 }
