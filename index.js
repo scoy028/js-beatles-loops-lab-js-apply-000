@@ -27,6 +27,6 @@ function johnLennonFacts(anArr) {
 function iLoveTheBeatles(num) {
   let newVar = [];
   do {
-    
+    newVar.push("I love the Beatles!")
   } while ();
 }
