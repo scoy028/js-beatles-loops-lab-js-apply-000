@@ -1,9 +1,9 @@
 // add solution here
-function theBeatlesPlay(musicians, instuments) {
-  let statement = [];
+function theBeatlesPlay(musiciansArray, instumentsArray) {
+  let statementArray = [];
   let string = "";
-  for (let i = 0; i < musicians.length - 1; ++i) {
-    string = musicians[i] + " plays the " + instuments[i];
-    statement += string;
+  for (let i = 0; i < musiciansArray.length - 1; ++i) {
+    string = musiciansArray[i] + " plays the " + instumentsArray[i];
+    statementArray += string;
   }
 }
