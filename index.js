@@ -32,5 +32,8 @@ function iLoveTheBeatles(num) {
     newVar.push(sillySent);
     ++i;
   } while (i <= num && i < 15);
+  if (num >= 15) {
+    return sillySent;
+  }
   return newVar;
 }
