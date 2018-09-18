@@ -36,6 +36,6 @@ function iLoveTheBeatles(num) {
       newVar.push(sillySent);
       ++i;
     } while (i <= num);
-    return newVar;
   }
+  return newVar;
 }
