@@ -31,9 +31,6 @@ function iLoveTheBeatles(num) {
     let sillySent = "I love the Beatles!";
     newVar.push(sillySent);
     ++i;
-  } while (i <= num && i < 15);
-  if (num >= 15) {
-    return sillySent;
-  }
+  } while (i <= num);
   return newVar;
 }
