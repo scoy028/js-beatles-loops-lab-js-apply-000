@@ -23,3 +23,8 @@ function johnLennonFacts(anArr) {
   }
   return newArr;
 }
+
+function iLoveTheBeatles(num) {
+  let newVar = [];
+  do ()
+}
